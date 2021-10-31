@@ -96,6 +96,12 @@ main {
     width: 100%;
     padding-top: 55%;
 }
+#asteroids {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 57%;
+}
 .responsive-iframe {
     position: absolute;
     top: 0;
@@ -104,4 +110,7 @@ main {
     right: 0;
     width: 100%;
     height: 100%;
+}
+.otherprojects {
+    width: 100%;
 }
