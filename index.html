@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dimas | Portfólio</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-azul fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Dimas | Portfólio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon">   
+                        <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row">
+            <div class="row col-md-12">
+                <div class="container-fluid">
+                    <div class="row"  id="sobre">
+                        <div class="col-md-12">
+                            <h2 style="text-align: center;" >Sobre</h2>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 align-itens-center text-center">
+                            <img src="images/foto.jpg" alt="Dimas" style="border-radius: 100%; height: 75%;" class="img-fuid">
+                        </div>
+                        <div class="col-md-8">
+                            <p style="text-align: justify;">
+                                Oi, meu nome é Dimas. <br>
+                                Atualmente estudo na Universidade Federal do ABC em Santo André, onde curso o Bacharelado Interdisciplinar em Ciência e Tecnologia e também Ciência da Computação, participo do Projeto de Extensão ARANDU onde desenvolvemos com os alunos do ensino básico das escolas públicas da região do campus um picosatélite com base em conteúdos de programação, modelagem, astronáutica e eletrônica. No momento estou trabalhando com a criação de gamificações utilizando o Unity Engine e estudando Node.js e Typescript. <br>
+                                Nesse site você pode encontrar alguns dos meus projetos de programação em várias áreas diferentes como WEB, Computação Gráfica e Sistemas Inteligentes. Além disso você tem acesso aos repositórios contendo os códigos desses projetos e a versões para web de alguns deles. Caso queira entrar em contato utilize algum dos meios abaixo:
+                            </p>
+                            <a href="https://github.com/dimas-castro">
+                                <button type="button" class="btn btn-secondary" id="github">
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </a>
+                            <a href="https://instagram.com/dimascastrof">
+                                <button type="button" class="btn btn-secondary" id="instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </button>
+                            </a>
+                            <a href="mailto:dimasdecastrofilho@outlook.com">
+                                <button type="button" class="btn btn-secondary" id="email">
+                                    <i class="fas fa-envelope"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row" id="projetos">
+                        <div class="col-md-12">
+                            <h2 style="text-align: center;">Projetos</h2>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7" id="mandelbrot">
+                            <iframe class="responsive-iframe" src="https://dimas-castro.github.io/CG-UFABC/mandelbrot/index.html" allow="gamepad" frameborder="0" allowfullscreen="true" allowtransparency="true" emscriptenheight="740"></iframe>
+                        </div>
+
+                        <div class="col-md-5">
+                            <h3>Fractal de Mandelbrot</h3>
+
+                            <div class="card">
+                                <div>
+                                    <ul class="list-inline">
+                                        <li class="card-text">Disciplina: <a href="https://github.com/dimas-castro/CG-UFABC">Computação Gráfica</a></li>
+                                        <li class="card-text" style="text-align: justify;">O que é: o projeto consiste na representação de um fractal de Mandebrot utilizando OpenGL. O conjunto de Mandelbrot é um fractal definido por conjuntos de pontos C no plano complexo onde a sequência não tende ao infinito, para cada interação são calculados novos valores que produzem novas formas e cores no fractal.</li>
+                                        <li class="card-text">Data: 20/03/2021</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="btn-group">
+                                    <a href="https://github.com/dimas-castro/CG-UFABC/tree/main/examples/mandelbrot"><button type="button" class="btn btn-light" style="border: solid #dcdcdc 1px;"><i class="fab fa-github"></i></button></a>
+                                    <a href="https://dimas-castro.github.io/CG-UFABC/mandelbrot/"><button type="button" class="btn btn-light" style="border: solid #dcdcdc 1px;"><i class="fas fa-link"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="container-fluid">
+                    <div class="row" id="otherprojects">
+                        <div class="col-md-12">
+                            <h3>Outros Projetos</h3>
+                        </div>
+    
+                        <div id="scape-room">
+                            <div class="card">
+                                <div>
+                                    <ul class="list-inline">
+                                        <li class="card-text"><H5>Scape Room</H5></li>
+                                        <li class="card-text">Disciplina: <a href="https://github.com/dimas-castro/CG-UFABC">Computação Gráfica</a></li>
+                                        <li class="card-text" style="text-align: justify;">O que é: aplicação 3D utilizando texturas e iluminação feita com o uso de OpenGL. O objetivo do jogo é encontrar as pistas para conseguir destrancar a porta e fugir do museu no qual o jogador está preso.</li>
+                                        <li class="card-text">Data: 25/04/2021</li>
+                                    </ul>
+                                </div>
+                            </div>
+        
+                            <div class="btn-group">
+                                    <a href="https://github.com/dimas-castro/CG-UFABC/tree/main/examples/scaperoom"><button type="button" class="btn btn-light" style="border: solid #dcdcdc 1px;"><i class="fab fa-github"></i></button></a>
+                            </div>
+                        </div>
+    
+                        <div id="gamification">
+                            <div class="card">
+                                <div>
+                                    <ul class="list-inline">
+                                        <li class="card-text"><H5>ARANDU Programming Gamification </H5></li>
+                                        <li class="card-text">Projeto: <a href="https://arandu.proec.ufabc.edu.br/">ARANDU</a></li>
+                                        <li class="card-text" style="text-align: justify;">O que é: acessório desenvolvido usando o Unity Engine para a aplicação da gamificação do módulo de programação do projeto de extensão ARANDU na Universidade Federal do ABC.</li>
+                                        <li class="card-text">Data: 01/09/2021</li>
+                                    </ul>
+                                </div>
+                            </div>
+        
+                            <div class="btn-group">
+                                    <a href="https://github.com/dimas-castro/ARANDU-Programming-Gamification"><button type="button" class="btn btn-light" style="border: solid #dcdcdc 1px;"><i class="fab fa-github"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="container-fluid padding" id="copyright">
+            <div class="col-12 text-center">
+                <a href="https://github.com/dimas-castro">
+                    <button type="button" class="btn btn-secondary" id="github">
+                        <i class="fab fa-github"></i>
+                    </button>
+                </a>
+                <a href="https://instagram.com/dimascastrof">
+                    <button type="button" class="btn btn-secondary" id="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </button>
+                </a>
+                <a href="mailto:dimasdecastrofilho@outlook.com">
+                    <button type="button" class="btn btn-secondary" id="email">
+                        <i class="fas fa-envelope"></i>
+                    </button>
+                </a>
+                <hr style="border-color: #fff;">
+                <p>Desenvolvido por Dimas de Castro Filho</p>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
